@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://inesgoethals55-cloud.github.io/vanderloo/sitemap.xml

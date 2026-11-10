@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="nl-BE">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- SEO -->
+  <title>Vanderloo · Signature scent met honing, vanille en witte lotus</title>
+  <meta name="description" content="Vanderloo is een authentieke, warme signature scent met honing, vanille en witte lotus. De geur van thuiskomen, om elke dag te dragen. Schrijf u in en ontdek hem als eerste.">
+  <meta name="keywords" content="Vanderloo, parfum, signature scent, honing, vanille, witte lotus, warm parfum, nieuw parfummerk">
+  <meta name="author" content="Ines Goethals">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#F7EEF5">
+  <!-- Vervang door je echte GitHub Pages-URL -->
+  <link rel="canonical" href="https://inesgoethals55-cloud.github.io/vanderloo/">
+
+  <!-- Open Graph / social delen -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="nl_BE">
+  <meta property="og:site_name" content="Vanderloo">
+  <meta property="og:title" content="Vanderloo · Draag uw thuis.">
+  <meta property="og:description" content="Een authentieke, warme signature scent met honing, vanille en witte lotus. De geur van thuiskomen, om elke dag te dragen.">
+  <meta property="og:image" content="https://inesgoethals55-cloud.github.io/vanderloo/assets/img/og-vanderloo.jpg">
+  <meta property="og:image:alt" content="Vanderloo-flacon met honing, vanille en een witte lotus op pruimkleurig fluweel">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/logo/favicon.svg" type="image/svg+xml">
+
+  <!-- Fonts: DM Serif Display (primair), DM Sans (body), Pinyon Script (signature-accent) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=DM+Serif+Display:ital@0;1&family=Pinyon+Script&display=swap" rel="stylesheet">
+
+  <link rel="preload" as="image" href="assets/img/shot-4-eindshot-poster.webp">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Gestructureerde data voor Google -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "name": "Vanderloo",
+        "slogan": "Draag uw thuis.",
+        "logo": "assets/logo/vanderloo-gradiant.svg"
+      },
+      {
+        "@type": "Product",
+        "name": "Vanderloo Signature Scent",
+        "brand": { "@type": "Brand", "name": "Vanderloo" },
+        "category": "Parfum",
+        "description": "Een warme, zachte signature scent met honing, vanille en witte lotus. Gemaakt om het hele jaar te dragen.",
+        "image": "assets/img/shot-3-geurnoten.webp"
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <a class="skip" href="#content">Ga naar de inhoud</a>
+
+  <!--
+    Eén index.html. Alle tekst staat in content.md:
+    # titel + intro = hero, elk ## hoofdstuk = een eigen sectie.
+    De instellingen van de 3D-opmaak staan in data/scene.json.
+    build.js zet beide om naar js/content.js (werkt ook als je dit bestand rechtstreeks opent).
+  -->
+
+  <header class="site-header" data-header>
+    <div class="wrap header-inner">
+      <a href="#top" class="logo" aria-label="Vanderloo, naar boven">
+        <img src="assets/logo/vanderloo-gradiant.svg" alt="Vanderloo" width="110" height="64">
+      </a>
+      <nav class="nav" id="hoofdmenu" aria-label="Hoofdmenu" data-menu></nav>
+      <a href="#inschrijven" class="btn btn-small header-cta">Schrijf u in</a>
+      <button type="button" class="menu-toggle" aria-expanded="false" aria-controls="menu-overlay" data-menu-toggle>
+        <span class="menu-toggle-lines" aria-hidden="true"><span></span><span></span></span>
+        <span class="menu-toggle-text">Menu</span>
+      </button>
+    </div>
+  </header>
+  <div class="menu-overlay" id="menu-overlay" hidden data-menu-overlay>
+    <nav aria-label="Menu op mobiel" class="menu-overlay-nav" data-menu-mobile></nav>
+  </div>
+
+  <main id="content" data-content>
+    <noscript>
+      <section class="section wrap">
+        <h1>Vanderloo · Draag uw thuis.</h1>
+        <p>Een authentieke, warme signature scent met honing, vanille en witte lotus. Zet JavaScript aan om de volledige pagina te zien.</p>
+      </section>
+    </noscript>
+  </main>
+
+  <footer class="site-footer" data-footer></footer>
+
+  <a href="#inschrijven" class="sticky-cta" data-sticky-cta>Schrijf u in</a>
+
+  <script src="js/content.js" defer></script>
+  <script src="js/vendor/anime.umd.min.js" defer></script>
+  <script src="js/depth.js" defer></script>
+  <script src="js/animaties.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>

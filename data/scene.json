@@ -1,0 +1,32 @@
+{
+  "_uitleg": "Instellingen van de 3D-opmaak en scroll-effecten (js/depth.js). Na aanpassen: node build.js",
+  "kantelen": {
+    "_uitleg": "Beelden kantelen mee met de muis. maxGraden = hoe ver, glans = lichtreflectie (0 tot 1).",
+    "maxGraden": 9,
+    "glans": 0.35
+  },
+  "diepte": {
+    "_uitleg": "Zwevende vormen rond de beelden. Hoe hoger, hoe meer ze bewegen bij muis en scroll.",
+    "muis": 22,
+    "scroll": 0.18
+  },
+  "scroll": {
+    "_uitleg": "Beelden komen in 3D binnen: ze staan eerst achterover gekanteld en draaien recht terwijl u scrollt.",
+    "startGraden": 14,
+    "startSchaal": 0.92
+  },
+  "noten": [
+    {
+      "id": "honing",
+      "kleur": "#E1A347"
+    },
+    {
+      "id": "vanille",
+      "kleur": "#F3E6DA"
+    },
+    {
+      "id": "lotus",
+      "kleur": "#D2ACC7"
+    }
+  ]
+}
